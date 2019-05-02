@@ -1,0 +1,11 @@
+SELECT
+ assessment_elamathsci.organization_id, 
+	organizationName, 
+	schoolyear, 
+	TestSubject,  	
+	Percent_met, 
+	percentontask
+FROM
+ assessment_elamathsci
+INNER JOIN ninthgrade_on_task ON ninthgrade_on_task.organization_id = assessment_elamathsci.organization_id
+ORDER BY percentontask desc
