@@ -1,1 +1,6 @@
-
+SELECT * FROM graduationrate
+ 
+ SELECT * FROM ninthgrade_on_task
+ SELECT * FROM assessment_elamathsci
+ WHERE organizationname= 'Washington State'
+ 
