@@ -1,1 +1,55 @@
 
+--Table 1: Teacher_degrees ----------------
+Create table Teacher_degrees (school_district text, number_of_degrees integer, percent_per_district double precision); 
+--2
+COPY teacher_degrees FROM '/Users/amandamartin/downloads/E7_Summary_Degree.csv' 
+WITH DELIMITER ',' CSV HEADER;
+--3
+Select * FrOM teacher_degrees Limit 1000
+
+
+-----table 2: NinthGrade_OnTask-------------
+Create table NinthGrade_On_Task (organization_code integer, 
+							   organization_id integer, 
+							   organization_name text, 
+							   school_year integer, 
+							   suppress_label text, 
+							   denominator integer, 
+							   percentOnTask double precision);
+COPY NinthGrade_On_Task FROM '/Users/amandamartin/college_scorecard_project/data/NinthOT_Summary_Dashboard.csv' 
+WITH DELIMITER ',' CSV HEADER;		
+
+SELECT * FROM NinthGrade_OnTask LIMIT 1000
+
+-----Table 3: Grad_Summary_Dashboard.csv
+Create table GraduationRate (classof text, 
+							 measureNames text,
+							 organizationCode text, 
+							 organizationName text, 
+							 organization_id integer, 
+							 suppression_label text, 
+							 CohortNumberOfStudents integer); 
+COPY GraduationRate FROM '/Users/amandamartin/college_scorecard_project/data/Grad_Summary_Dashboard.csv'  
+WITH DELIMITER ',' CSV HEADER;						 
+
+_______________________________________							 
+Table 4 
+Create table Assessment_ELAMathSci (
+							 measureNames text, 
+							 organizationName text, 
+							 organization_id integer,
+							 schoolyear text, 
+							 Suppressreason_group text,
+							 Test_administration_group text, 
+							 TestSubject text, 
+							 Percent_takingWAAIM double precision,
+							 DenomonatorExcluding_PP text, 
+							 number_of_records text, 	
+							 Percent_met double precision ); 
+							 
+COPY Assessment_ELAMathSci FROM '/Users/amandamartin/college_scorecard_project/data/Assessment_ELA, Math, Sci.csv'  
+WITH DELIMITER ',' CSV HEADER;
+
+SELECT * FROM Assessment_ELAMathSci
+							 
+							 
