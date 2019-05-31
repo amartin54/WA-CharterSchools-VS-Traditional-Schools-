@@ -1,0 +1,6 @@
+
+SELECT organization_id
+  FROM ninthgrade_on_task
+ WHERE organization_id IN (SELECT organization_id 
+                FROM graduationrate
+               WHERE measure_values > 50)
