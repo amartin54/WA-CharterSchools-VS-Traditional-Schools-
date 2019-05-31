@@ -10,7 +10,7 @@ Data Analytics project that compares student assessment performance of students 
 SQL Queries
 1. [SUM, AVG, GROUP BY](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/SUM%2C%20AVG%2C%20GROUP%20BY)
 2. [CASE](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/CASE)
-3. [WHERE](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/WHERE) HAVING 
+3. [WHERE](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/WHERE) [HAVING](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/HAVING) 
 4. [JOINS, ORDER BY](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/JOINS%20and%20ORDER%20BY)
 5. [UNION](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/UNION)
 6. SUBQUERY
