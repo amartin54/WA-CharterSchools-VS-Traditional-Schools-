@@ -17,8 +17,8 @@ SQL Queries
 7. [DATA LOAD](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/Loading_Data)
 
 Adv. Excel
-1. LOOKUP
-2. PIVOT TABLE
+1. [VLOOKUP](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/Adv_Excel/Vlookup.xls)
+2. [PIVOT TABLE](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/Adv_Excel/DA_projectPivotTable.xls)
 
 Tableau 
 1. JOIN/BLEND
