@@ -1,0 +1,9 @@
+SELECT 
+	percent_per_district, 
+	school_district, 
+CASE 
+	WHEN percent_per_district > .9 THEN "Highly Trained Teachers"
+	WHEN percent_per_district < .7 THEN "Moderately Trained Teachers" 
+	ELSE "Untrained Teachers"
+END AS "Training_Levels"
+FROM teacher_degrees
