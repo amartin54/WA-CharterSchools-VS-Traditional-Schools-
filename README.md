@@ -10,10 +10,11 @@ Data Analytics project that compares student assessment performance of students 
 SQL Queries
 1. SUM, AVG, GROUP BY
 2. CASE
-3. WHERE, HAVING 
+3. [WHERE](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/WHERE) HAVING 
 4. [JOINS, ORDER BY](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/JOINS%20and%20ORDER%20BY)
-5. UNION
+5. [UNION](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/UNION)
 6. SUBQUERY
+7. [DATA LOAD](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/Loading_Data)
 
 Adv. Excel
 1. LOOKUP
