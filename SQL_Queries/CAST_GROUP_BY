@@ -1,0 +1,13 @@
+WITH sample AS (
+SELECT DISTINCT RIGHT(bikeid, -3) as bikeid
+FROM da_pronto.trip
+ WHERE MOD (CAST (RIGHT(bikeid, -3) as numeric), 100)<=20
+ )
+ 
+ select right(bikeid, -3) as bike_id
+	 , Min(tripduration) as min_trip_duration
+	 , Max(tripduration) as max_trip_duration
+	 , AVG(tripduration) as avg_trip_duration
+ from da_pronto.trip b
+ 	JOIN sample t on b.bikeid = t.bikeid
+ GROUP BY 1
