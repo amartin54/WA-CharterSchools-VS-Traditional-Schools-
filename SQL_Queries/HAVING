@@ -1,0 +1,8 @@
+
+SELECT 
+	percent_per_district, 
+	school_district, 
+	number_of_degrees
+FROM teacher_degrees
+GROUP BY school_district, percent_per_district, number_of_degrees
+HAVING (percent_per_district) > .5
