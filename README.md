@@ -11,7 +11,7 @@ SQL Queries
 1. SUM, AVG, GROUP BY
 2. CASE
 3. WHERE, HAVING 
-4. JOINS
+4. [JOINS, ORDER BY](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/SQL_Queries/JOINS%20and%20ORDER%20BY)
 5. UNION
 6. SUBQUERY
 
