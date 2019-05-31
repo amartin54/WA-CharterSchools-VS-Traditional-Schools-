@@ -1,0 +1,7 @@
+SELECT 
+	AVG(number_of_degrees) as avg_number_of_degrees,
+	SUM(number_of_degrees) as Sum_degrees, 
+	school_district
+FROM teacher_degrees
+GROUP BY school_district
+ORDER BY Sum_degrees desc
