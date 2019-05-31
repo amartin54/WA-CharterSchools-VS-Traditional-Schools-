@@ -20,7 +20,7 @@ Adv. Excel
 1. [VLOOKUP](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/Adv_Excel/Vlookup.xls)
 2. [PIVOT TABLE](https://github.com/amartin54/WA-CharterSchools-VS-Traditional-Schools-/blob/master/Adv_Excel/DA_projectPivotTable.xls)
 
-Tableau 
+Tableau --> See Data Viz and Presentation Slides Above
 1. JOIN/BLEND
 2. FILTER
 3. PARAMETER
